@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+<body>
+  
+<div class="maincontainer">
+
+    <div class="subcontainer">
+        <div class="subbosstext"><i class="fa-solid fa-suitcase"></i> <div class="subbosstext2">JobName Eliran Levi</div></div>
+        <div class="subnametext"><i class="fa-regular fa-user"></i> Welcome Boss<br><div class="subnametext2">Eliran Levi</div></div>
+    </div>
+
+    <div class="buttonscontainer">
+        <div class="employeelistB"><i class="fa-solid fa-user-group"></i> EMPLOYEE LIST</div>
+        <div class="recruitB"><i class="fa-solid fa-user-plus"></i> RECRUIT</div>
+        <div class="bossinvB"><i class="fa-solid fa-box"></i> BOSS INVENTORY</div>
+        <div class="societymoneyB"><i class="fa-solid fa-money-bill"></i> SOCIETY MONEY</div>
+    </div>
+
+    <div class="viewcontainer">
+        
+            <svg width="400" height="400" viewBox="0 0 400 400" class="circular-progress">
+                <circle class="bg"></circle>
+                <circle class="fg"></circle>
+              </svg>
+              <div class="progresstext">Active Employees Percent<br><div class="progresstext2">25%</div></div>
+    </div>
+
+    <div class="employeelistcontainer">
+        <table class="listTable">
+            <tbody> 
+                <tr class="UserList" data-citizenid="FA125GS" data-fullname="Eliran Levi">
+                    <td><img src="https://i.gyazo.com/c66d7009af20ea634ac065d784904239.png" alt=""> Eliran Levi</td>
+                    <td>FA125GS</td>
+                    <td>Chief Of Police</td>
+                    <td class="StatusOnline">Online</td>
+                    <td class="promoteB">Promote</td>
+                    <td class="fireB">Fire</td>
+                </tr>
+                <tr class="UserList" data-citizenid="GA255NC" data-fullname="Michael Rephalov">
+                    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Unknown_person.jpg/925px-Unknown_person.jpg" alt=""> Michael Rephalov</td>
+                    <td>GA255NC</td>
+                    <td>Assistant Chief</td>
+                    <td class="StatusOffline">Offline</td>
+                    <td class="promoteB">Promote</td>
+                    <td class="fireB">Fire</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+
+
+        <div class="hirelistcontainer">
+            <div class="hiresubtitle">
+                <div class="hstext">Closest Person</div>
+                <div class="hstextB">Refresh</div>
+            </div>
+            <table class="listTableHire">
+                <tbody> 
+                    <tr class="UserListHire" data-citizenid="FA125GS">
+                        <td><i class="fa-solid fa-id-badge"></i> 14</td>
+                        <td>Eliran Levi</td>
+                        <td>FA125GS</td>
+                        <td class="hireB">Hire</td>
+                    </tr>
+                    <tr class="UserListHire" data-citizenid="GA255NC">
+                        <td><i class="fa-solid fa-id-badge"></i> 17</td>
+                        <td>Michael Rephalov</td>
+                        <td>GA255NC</td>
+                        <td class="hireB">Hire</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+
+    </div>
+
+    <div class="promotelist">
+        <div class="promotelisttext">Eliran Levi</div>
+        <div class="labelscontainer">
+            <div class="label isboss">Chief Of Police</div>
+            <div class="label">Cadet</div>
+        </div>
+        <div class="promoteBclose">Close</div>
+    </div>
+
+    <div class="societycontainer">
+        <div class="societymoneyNumber">512,622$</div>
+        <div class="societyButtons">
+        <div class="withdrawB"><i class="fa-solid fa-angles-up"></i> Withdraw</div>
+        <div class="depositB"><i class="fa-solid fa-angles-down"></i> Deposit</div>
+        </div>
+        <div class="societyNumber"><input type="number" id="amountnumber" name="amountnumber" size="50" placeholder="0"></div>
+        <div class="societyButtons2">
+            <div class="societyClose">Close</div>
+        </div>
+    </div>
+
+
+</div>
+
+<script src="main.js"></script>
+
+</body>
+</html>
