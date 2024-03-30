@@ -12,4 +12,4 @@
 - **qb-drawtext**
 # Images
 
-![bossmenu](https://i.gyazo.com/3825a545d3bdd0a6b9fa808c1d272a6d.jpg)
+![bossmenu](https://i.gyazo.com/9a6841eefd254909bc6212ccbc5c7647.png)
