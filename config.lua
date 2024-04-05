@@ -1,6 +1,6 @@
 Config = {}
 
-Config.DrawTextExports = 'qb-drawtext'
+Config.DrawTextExports = 'qb-core'
 
 Config.BossMenus = {
     ['police'] = {
